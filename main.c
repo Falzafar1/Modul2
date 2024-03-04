@@ -60,23 +60,24 @@ int main() {
 
     // Meminta input dari pengguna
 
-    printf("Masukkan bilangan A: ");
-    scanf("%d", &A);
-    printf("Masukkan bilangan B: ");
-    scanf("%d", &B);
-
-    while (kondisi1 ==0 || kondisi2 ==0){
+    while (kondisi1!=1){
+        printf("Masukkan bilangan A: ");
+        scanf("%d", &A);
         if (A <=0){
-            printf ("\nBilangan yang Anda masukkan bernilai 0\r\n");
+            printf ("\nBilangan yang Anda masukkan bernilai %d\n",A);
             printf("Masukkan bilangan A: ");
             scanf("%d", &A);
         }
         else{
-            kondisi1 =1;
+            kondisi1 = 1;
         }
+    }
 
+    while (kondisi2!=1){
+        printf("Masukkan bilangan B: ");
+        scanf("%d", &B);
         if (B <=0){
-            printf ("\nBilangan yang Anda masukkan bernilai 0\n");
+            printf ("\nBilangan yang Anda masukkan bernilai %d\n",B);
             printf("Masukkan bilangan B: ");
             scanf("%d", &B);
         }
