@@ -67,7 +67,7 @@ int main() {
 
     while (kondisi1 ==0 || kondisi2 ==0){
         if (A <=0){
-            printf ("\nBilangan yang Anda masukkan bernilai 0\n\n");
+            printf ("\nBilangan yang Anda masukkan bernilai 0\r\n");
             printf("Masukkan bilangan A: ");
             scanf("%d", &A);
         }
@@ -76,7 +76,7 @@ int main() {
         }
 
         if (B <=0){
-            printf ("\nBilangan yang Anda masukkan bernilai 0\n\n");
+            printf ("\r\nBilangan yang Anda masukkan bernilai 0\r\n");
             printf("Masukkan bilangan B: ");
             scanf("%d", &B);
         }
