@@ -76,7 +76,7 @@ int main() {
         }
 
         if (B <=0){
-            printf ("\r\nBilangan yang Anda masukkan bernilai 0\r\n");
+            printf ("\nBilangan yang Anda masukkan bernilai 0\n");
             printf("Masukkan bilangan B: ");
             scanf("%d", &B);
         }
