@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "123\r\n432",
+      "output": "Bilangan C adalah 555\r\nFaktorisasi prima dari 555 = 3 x 5 x 37",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "100001\r\n101010",
+      "output": "Bilangan C adalah 110102\r\nFaktorisasi prima dari 110102 = 2 x 55051",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2301\r\n202",
+      "output": "Bilangan C adalah 1234\r\nFaktorisasi prima dari 1234 = 2 x 617",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "21\r\n0\r\n31",
+      "output": "Masukkan bilangan A: Masukkan bilangan B: \r\nBilangan yang Anda masukkan bernilai 0\r\nMasukkan bilangan B: \r\nBilangan C adalah 25\r\nFaktorisasi prima dari 25 = 5 x 5",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1982\r\n0\r\n0\r\n1110",
+      "output": "Masukkan bilangan A: Masukkan bilangan B: \r\nBilangan yang Anda masukkan bernilai 0\r\nMasukkan bilangan B: \r\nBilangan yang Anda masukkan bernilai 0\r\nMasukkan bilangan B: \r\nBilangan C adalah 3002\r\nFaktorisasi prima dari 3002 = 2 x 19 x 79",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "make main",
+      "run": "./main",
+      "input": "4\r\n5",
+      "output": "Bilangan C adalah 9\r\nFaktorisasi prima dari 9 = 3 x 3",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "make main",
+      "run": "./main",
+      "input": "14\r\n41",
+      "output": "Bilangan C adalah 55\r\nFaktorisasi prima dari 55 = 5 x 11",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "make main",
+      "run": "./main",
+      "input": "0\r\n0\r\n9\r\n8",
+      "output": "Masukkan bilangan A: Masukkan bilangan B: \r\nBilangan yang Anda masukkan bernilai 0\r\nMasukkan bilangan A: \r\nBilangan yang Anda masukkan bernilai 0\r\nMasukkan bilangan B: \r\nBilangan C adalah 17\r\nFaktorisasi prima dari 17 = 17",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "make main",
+      "run": "./main",
+      "input": "11000\r\n304",
+      "output": "Bilangan C adalah 414\r\nFaktorisasi prima dari 414 = 2 x 3 x 3 x 23",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "make main",
+      "run": "./main",
+      "input": "230400\r\n902000",
+      "output": "Bilangan C adalah 4241\r\nFaktorisasi prima dari 4241 = 4241",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    }
+  ]
+}
