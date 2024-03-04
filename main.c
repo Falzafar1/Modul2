@@ -64,7 +64,7 @@ int main() {
         printf("Masukkan bilangan A: ");
         scanf("%d", &A);
         if (A <=0){
-            printf ("\nBilangan yang Anda masukkan bernilai %d\n",A);
+            printf ("\nBilangan yang Anda masukkan bernilai 0\n");
             printf("Masukkan bilangan A: ");
             scanf("%d", &A);
         }
@@ -77,7 +77,7 @@ int main() {
         printf("Masukkan bilangan B: ");
         scanf("%d", &B);
         if (B <=0){
-            printf ("\nBilangan yang Anda masukkan bernilai %d\n",B);
+            printf ("\nBilangan yang Anda masukkan bernilai 0\n");
             printf("Masukkan bilangan B: ");
             scanf("%d", &B);
         }
